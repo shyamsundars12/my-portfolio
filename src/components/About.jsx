@@ -72,10 +72,10 @@ const About = ({ setActiveSection }) => {
   ];
 
   const stats = [
-    { label: 'Years Experience', value: '5+' },
-    { label: 'Projects Completed', value: '50+' },
-    { label: 'Happy Clients', value: '30+' },
-    { label: 'Technologies', value: '15+' },
+    { label: 'Years Experience', value: '1+' },
+    { label: 'Projects Completed', value: '5+' },
+    // { label: 'Happy Clients', value: '30+' },
+    { label: 'Technologies', value: '10+' },
   ];
 
   return (

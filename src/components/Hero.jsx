@@ -90,7 +90,7 @@ const Hero = ({ setActiveSection }) => {
               className="text-5xl md:text-7xl font-display font-bold mb-6"
             >
               <span className="bg-gradient-to-r from-primary-500 to-secondary-600 bg-clip-text text-transparent">
-                Hi, I'm Shyam
+                Hi, I'm Shyam Sundar S
               </span>
             </motion.h1>
             <motion.h2
