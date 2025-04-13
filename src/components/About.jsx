@@ -98,19 +98,12 @@ const About = ({ setActiveSection }) => {
 
   const timeline = [
     {
-      title: 'Senior Developer',
-      company: 'Tech Company',
-      period: '2020 - Present',
-      description: 'Leading development teams and architecting scalable solutions.',
+      title: 'Probationary Clerk',
+      company: 'Tamilnad Mercantile Bank Ltd',
+      period: '2022 - 2024',
+      description: 'Worked as a Probationary clerk at Shenkottai branch for one year and handled cash transaction ,CASA,  Account opening , Jewel loans, and other banking activities.',
       icon: <Briefcase size={20} />
     },
-    {
-      title: 'Full Stack Developer',
-      company: 'Startup',
-      period: '2018 - 2020',
-      description: 'Built and maintained multiple web applications from scratch.',
-      icon: <Code size={20} />
-    }
   ];
 
   const goals = [
