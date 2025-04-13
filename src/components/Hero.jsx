@@ -174,7 +174,7 @@ const Hero = ({ setActiveSection }) => {
               <span className="text-slate-600 font-medium">Connect with me:</span>
               <div className="flex space-x-5">
                 <motion.a
-                  href="#"
+                  href="https://github.com/shyamsundars12"
                   whileHover={{ y: -4, scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   className="text-slate-700 hover:text-primary-600 transition-colors duration-300"
@@ -182,7 +182,7 @@ const Hero = ({ setActiveSection }) => {
                   <Github size={22} />
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://www.linkedin.com/in/shyam-sundar-s-13b297211/"
                   whileHover={{ y: -4, scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   className="text-slate-700 hover:text-primary-600 transition-colors duration-300"

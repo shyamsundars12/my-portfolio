@@ -84,11 +84,11 @@ const About = ({ setActiveSection }) => {
       icon: '🗄️',
       skills: ['MongoDB', 'MySQL', 'Firebase'] 
     },
-    { 
-      name: 'Mobile', 
-      icon: '📱',
-      skills: ['Flutter (Dart)', 'Jetpack Compose (Kotlin)'] 
-    },
+    // { 
+    //   name: 'Mobile', 
+    //   icon: '📱',
+    //   skills: ['Flutter (Dart)', 'Jetpack Compose (Kotlin)'] 
+    // },
     { 
       name: 'Tools', 
       icon: '🔧',
@@ -100,7 +100,7 @@ const About = ({ setActiveSection }) => {
     {
       title: 'Probationary Clerk',
       company: 'Tamilnad Mercantile Bank Ltd',
-      period: '2022 - 2024',
+      period: '2023 - 2024',
       description: 'Worked as a Probationary clerk at Shenkottai branch for one year and handled cash transaction ,CASA,  Account opening , Jewel loans, and other banking activities.',
       icon: <Briefcase size={20} />
     },
@@ -372,8 +372,8 @@ const About = ({ setActiveSection }) => {
                 {[
                   { name: 'React', level: 90 },
                   { name: 'Node.js', level: 85 },
-                  { name: 'TypeScript', level: 80 },
-                  { name: 'Tailwind CSS', level: 95 },
+                  { name: 'Flutter', level: 80 },
+                  { name: 'Tailwind css', level: 95 },
                 ].map((skill, index) => (
                   <motion.div
                     key={skill.name}
