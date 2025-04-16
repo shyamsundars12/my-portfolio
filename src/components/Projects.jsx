@@ -4,12 +4,12 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = ({ setActiveSection }) => {
   const projects = [
     {
-      title: "BookMyService",
+      title: "ServiceSync",
       description: "A service booking platform connecting users with local professionals like electricians and plumbers. Includes real-time availability, admin dashboard, and role-based access.",
       image: "https://images.unsplash.com/photo-1581093458791-9f3c3250a8b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       tags: ["MERN Stack", "MongoDB", "Express", "React", "Node.js"],
-      github: "https://github.com/shyamsundars12",
-      demo: "#",
+      github: "https://github.com/shyamsundars12/servicesync-frontend",
+      demo: "https://servicesync-frontend.vercel.app/",
       color: "#4F46E5"
     },
     {
