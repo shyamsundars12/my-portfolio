@@ -175,7 +175,7 @@ const Contact = ({ setActiveSection }) => {
                 onChange={handleChange}
                 required
                 placeholder="Enter your full name"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
@@ -191,7 +191,7 @@ const Contact = ({ setActiveSection }) => {
                 onChange={handleChange}
                 required
                 placeholder="Enter your email address"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
@@ -207,7 +207,7 @@ const Contact = ({ setActiveSection }) => {
                 rows="4"
                 required
                 placeholder="Type your message here..."
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
