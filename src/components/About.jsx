@@ -63,7 +63,6 @@ const About = ({ setActiveSection }) => {
   };
 
   const stats = [
-    { label: 'Years Experience', value: '1+', icon: Award },
     { label: 'Projects Completed', value: '5+', icon: Briefcase },
     { label: 'Technologies', value: '10+', icon: Code },
   ];
