@@ -96,16 +96,6 @@ const About = ({ setActiveSection }) => {
     },
   ];
 
-  const timeline = [
-    {
-      title: 'Probationary Clerk',
-      company: 'Tamilnad Mercantile Bank Ltd',
-      period: '2023 - 2024',
-      description: 'Worked as a Probationary clerk at Shenkottai branch for one year and handled cash transaction ,CASA,  Account opening , Jewel loans, and other banking activities.',
-      icon: <Briefcase size={20} />
-    },
-  ];
-
   const goals = [
     'Master full-stack development',
     'Build production-ready apps',
@@ -225,49 +215,6 @@ const About = ({ setActiveSection }) => {
                   </motion.div>
                 );
               })}
-            </motion.div>
-
-            {/* Timeline */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-xl shadow-md border border-slate-100 p-6 hover:border-primary-200 transition-all duration-300"
-            >
-              <h3 className="text-xl font-display font-bold text-slate-800 mb-6 flex items-center">
-                <span className="w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center mr-3">
-                  <Briefcase size={18} className="text-primary-600" />
-                </span>
-                My Journey
-              </h3>
-              
-              <div className="space-y-6 relative">
-                <div className="absolute left-5 top-0 bottom-0 w-0.5 bg-primary-100"></div>
-                
-                {timeline.map((item, index) => (
-                  <motion.div
-                    key={item.title}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.1 + index * 0.2 }}
-                    className="relative pl-12"
-                  >
-                    <div className="absolute left-0 top-0 w-10 h-10 rounded-full bg-white border-2 border-primary-200 flex items-center justify-center z-10">
-                      {item.icon}
-                    </div>
-                    
-                    <div className="bg-slate-50 rounded-lg p-4 hover:bg-primary-50 transition-colors duration-300">
-                      <h4 className="text-lg font-display font-semibold text-slate-800">{item.title}</h4>
-                      <p className="text-primary-700 text-sm font-medium">
-                        {item.company} • <span className="text-slate-500">{item.period}</span>
-                      </p>
-                      <p className="text-slate-600 mt-2 text-sm">{item.description}</p>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
             </motion.div>
 
             {/* Goals */}
